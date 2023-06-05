@@ -19,7 +19,7 @@ pipeline {
                 }
             }
         }
-        /**
+        
         stage('2. Dockder Push') {
             steps {
                 script {
@@ -39,6 +39,6 @@ pipeline {
                 }
             }
         }
-        **/
+        
     }
 }
