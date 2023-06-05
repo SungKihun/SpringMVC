@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: springmvc
-        image: registry-1.docker.io/dhhan/springmvc:latest
+        image: registry-1.docker.io/khsung/springmvc:latest
         resources : 
           limits:
             memory: "500Mi"
