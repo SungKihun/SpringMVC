@@ -34,7 +34,7 @@ pipeline {
             steps {
                 script {
                     echo "3. K8s Deploy..."
-                    sh "/usr/local/bin/kubectl --kubeconfig=${kubeconfig} delete -f ./deploy-springmvc.yaml -n khsung"
+                    // sh "/usr/local/bin/kubectl --kubeconfig=${kubeconfig} delete -f ./deploy-springmvc.yaml -n khsung"
                     sh "/usr/local/bin/kubectl --kubeconfig=${kubeconfig} apply -f ./deploy-springmvc.yaml -n khsung"
                 }
             }
